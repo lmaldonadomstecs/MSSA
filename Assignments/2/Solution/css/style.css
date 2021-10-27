@@ -1,0 +1,90 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 62.5%;
+}
+#calculator {
+    display: grid;
+    background-color: lightgray;
+    border-radius: 1.25rem;
+    font-size: 3rem;
+    font-weight: 900;
+    grid-template-rows: 1fr 5fr;
+    height: 80vh;
+    padding: 2rem;
+    width: 50vw;
+}
+#screen {
+    align-items: center;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: end;
+    font-family: Consolas;
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+}
+#screen:hover {
+    background-color: rgb(169, 255, 169);
+}
+#buttons {
+    font-family: Arial;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    user-select: none;
+
+}
+.button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition-property: background-color, transform;
+    transition-duration: .2s;
+}
+.button:hover {
+    background-color: rgb(230, 230, 230);
+    transform: translateY(-.2rem);
+}
+.button:active {
+    background-color: darkgray;
+}
+.button.digit {
+
+}
+.button.digit:nth-of-type(13) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.button.operation {
+    background-color: rgb(202, 129, 129);
+}
+.button.operation:hover {
+    background-color: rgb(230, 165, 165);
+}
+.button.operation:active {
+    background-color: rgb(165, 85, 85);
+}
+.button.operation:nth-of-type(14) {
+    background-color: lightskyblue;
+}
+.button.operation:nth-of-type(14):hover {
+    background-color: rgb(183, 227, 255);
+}
+.button.operation:nth-of-type(14):active {
+    background-color: rgb(104, 182, 230);
+}
+.button.operation.disabled {
+    background-color: darkgray;
+}
+.button.operation.disabled:hover {
+    background-color: rgb(187, 187, 187);
+}
+.button.operation.disabled:active {
+    background-color: rgb(141, 140, 140);
+}
+
+@media only screen and (max-width: 1200px){
+    #calculator {
+        font-size: 4rem;
+    }
+}

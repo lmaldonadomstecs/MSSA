@@ -1,0 +1,59 @@
+<!-- 
+
+    ASSIGNMENT 2. JavaScript
+    Maximum score: 20
+
+    HTML 4pts:
+        1. Create a div element for the body of a calculator
+        2. Create an input element for the screen of the calculator
+        3. Create 9 buttons that correspond to the 9 digits of the calculator
+        4. Create 5 buttons for the operations: + - / * =
+
+    CSS 4pts:
+        1. Apply styles to the body of the calculator.
+        2. Apply styles to the screen of the calculator.
+        3. Apply style to the digit buttons of the calculator so they look the same.
+        4. Apply styles to the operation buttons so they contrast from the digit ones.
+        
+    JS 12pts:
+        1. Make it so that by default, the value showcased in the calculator is 0. worths 1pt.
+        2. Make it so that each time you press a digit button you send the number value to the calculator's screen. worths 1pt.
+        3. Make it so that each time you press an operation button, you store the current value in the screen of the calculator in a variable and you clean the screen of the calculator the value returns to 0. worths 3pts.
+        4. Make it so that if you're capturing the second digit, the operation buttons get blocked except for the equal operation. worths 3pts.
+        5. Make it so that when you press on the equal operation button you perform the operation and output the result on the screen. worths 2pts
+        6. Make it so that when you're displaying the result, if you press any key of the calculator it allows you to restart from zero capturing the first digit. 2pts.
+
+ -->
+
+
+ <html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <div id="calculator">
+            <div id="screen">0</div>
+
+            <div id="buttons">
+                <div onclick="addNumber(7)" class="button digit"><span>7</span></div>
+                <div onclick="addNumber(8)" class="button digit"><span>8</span></div>
+                <div onclick="addNumber(9)" class="button digit"><span>9</span></div>
+                <div onclick="captureNumber('division')" class="button operation"><span>/</span></div>
+                <div onclick="addNumber(4)" class="button digit"><span>4</span></div>
+                <div onclick="addNumber(5)" class="button digit"><span>5</span></div>
+                <div onclick="addNumber(6)" class="button digit"><span>6</span></div>
+                <div onclick="captureNumber('multiplication')" class="button operation"><span>*</span></div>
+                <div onclick="addNumber(1)" class="button digit"><span>1</span></div>
+                <div onclick="addNumber(2)" class="button digit"><span>2</span></div>
+                <div onclick="addNumber(3)" class="button digit"><span>3</span></div>
+                <div onclick="captureNumber('substraction')" class="button operation"><span>-</span></div>
+                <div onclick="addNumber(0)" class="button digit"><span>0</span></div>
+                <div onclick="giveResult()" class="button operation"><span>=</span></div>
+                <div onclick="captureNumber('addition')" class="button operation"><span>+</span></div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
