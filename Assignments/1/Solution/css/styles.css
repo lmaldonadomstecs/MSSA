@@ -1,0 +1,113 @@
+body {
+    font-size: 62.5%;
+    margin: 0;
+}
+header {
+    background-color: lightgray;
+    min-height: 80px;
+    position: relative;
+}
+.logo {
+    max-width: 256px;
+    transition: 1s transform;
+    float: left;
+    position: absolute;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+header .logo {
+    top: .5rem;
+    left: 2rem;
+}
+nav {
+    position: absolute;
+    float: right;
+    top: 1rem;
+    right: 2rem;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin-right: 1rem;
+}
+nav a {
+    border-radius: 5px 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: .4s all;
+}
+nav a:link {
+    color: black;
+}
+nav a:visited {
+    color: black;
+}
+nav a:hover {
+    background-color: white;
+}
+nav a:active {
+    background-color: gray;
+}
+main {
+    clear: both;
+    text-align: center;
+    min-height: 80vh;
+}
+main h1 {
+    font-size: 3rem;
+}
+main img {
+    max-width: 640px;
+}
+main p {
+    font-size: 2.4rem;
+}
+main b {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: rgb(24, 24, 24);
+    min-height: 120px;
+    color: white;
+    position: relative;
+}
+footer .logo {
+    filter: brightness(0) invert(1);
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer-bottom nav {
+    top: -1rem;
+}
+.footer-bottom nav a {
+    color: white;r
+}
+.footer-bottom nav a:hover {
+    color: black;
+}
+@media only screen and (max-width: 1599px) {
+    .logo {
+        max-width: 512px;
+    }
+    nav a {
+        font-size: 2.4rem;
+    }
+    main h1 {
+        font-size: 3.4rem;
+    }
+    main img {
+        max-width: 800px;
+    }
+}
