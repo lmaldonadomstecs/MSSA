@@ -5,7 +5,7 @@ function searchPokemon() {
     whichPokemon = document.getElementById("searchbar").value;
     whichPokemon = whichPokemon.toLowerCase();
     url = "https://pokeapi.co/api/v2/pokemon/"
-    url += pokemon; // url = url + pokemon
+    url += whichPokemon; // url = url + pokemon
     fetch(url)
     .then(response => response.json())
     .then(pokemon => {
