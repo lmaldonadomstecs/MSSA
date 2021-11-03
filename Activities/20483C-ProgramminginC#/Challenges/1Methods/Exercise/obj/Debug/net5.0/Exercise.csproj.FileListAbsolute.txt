@@ -1,0 +1,16 @@
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.exe
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.deps.json
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.runtimeconfig.json
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.runtimeconfig.dev.json
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.dll
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\ref\Exercise.dll
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\bin\Debug\net5.0\Exercise.pdb
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.csproj.AssemblyReference.cache
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.AssemblyInfoInputs.cache
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.AssemblyInfo.cs
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.csproj.CoreCompileInputs.cache
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.dll
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\ref\Exercise.dll
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.pdb
+L:\Desktop\MSSA\REPOS\MSSA\Activities\20483C-ProgramminginC#\Challenges\1Methods\Exercise\obj\Debug\net5.0\Exercise.genruntimeconfig.cache
