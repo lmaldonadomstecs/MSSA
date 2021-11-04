@@ -12,12 +12,13 @@ namespace Zoo
     }
 
     // Base class
-    class Animal
+    abstract class Animal
     {
         private livingState livingState;
         private healthState healthState;
         private int age;
         private bool hungry;
+        protected string voice;
 
         public Animal (livingState livingState = livingState.Alive, healthState healthState = healthState.Good, int age = 0, bool hungry = false) {
             this.livingState = livingState;

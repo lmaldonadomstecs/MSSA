@@ -3,7 +3,7 @@ using System;
 namespace Zoo
 {
     // Derived class
-    class Pet : Animal
+    abstract class Pet : Animal
     {
         protected string name;
         protected string owner;
@@ -12,8 +12,6 @@ namespace Zoo
             Console.WriteLine("My name is {0} and my owner is {1}", this.name, this.owner);
         }
 
-        public void communicate() {
-            Console.WriteLine("Pet is trying to communicate.");
-        }
+        public abstract void communicate();            
     }
 }

@@ -2,3 +2,7 @@
 02. What happens if you add the "sealed" keyword before any "class Something" declaration?
 03. Cat is the base class of Pet. True or false.
 04. What is the effect of the protected access modifier.
+05. Explain the virtual and override keywords.
+06. What is the abstract keyword doing?
+07. When instantiating an object in the Program class, why are we using two different classes to declare an object.
+08. Difference between overriding a method and an overloaded method.

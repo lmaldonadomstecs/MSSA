@@ -7,8 +7,8 @@ namespace Zoo
         static void Main(string[] args)
         {
             // Pet obj  // Overriden by
-            Cat animal_1 = new Cat();
-            Dog animal_2 = new Dog();
+            Pet animal_1 = new Cat();
+            Pet animal_2 = new Dog();
             
             animal_1.readCollar();
             animal_1.communicate();
