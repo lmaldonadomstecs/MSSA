@@ -1,0 +1,11 @@
+01. Enrolling employees to the school.
+02. Enrolling teachers to the school.
+03. Enrolling janitors to the school.
+04. The school must be able to tell how many employees are in school.
+05. The school must be able to tell how many teachers are in school.
+06. The school must be able to tell how many janitors are in school.
+07. The school must be able to tell how many students are in school.
+08. Register the classes that the school offers.
+09. The school must be able to return how many classes are there.
+10. Assign a class to each teacher.
+11. Assign students to a class.
