@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\2Methods-School\\School.csproj",
-      "projectName": "School",
-      "projectPath": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\2Methods-School\\School.csproj",
+      "projectUniqueName": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\3Analyze-Inheritance\\Animals.csproj",
+      "projectName": "Animals",
+      "projectPath": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\3Analyze-Inheritance\\Animals.csproj",
       "packagesPath": "C:\\Users\\fmt_9\\.nuget\\packages\\",
-      "outputPath": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\2Methods-School\\obj\\",
+      "outputPath": "L:\\Desktop\\MSSA\\REPOS\\MSSA\\Activities\\20483C-ProgramminginC#\\Challenges\\3Analyze-Inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

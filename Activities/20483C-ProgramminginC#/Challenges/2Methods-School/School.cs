@@ -4,12 +4,12 @@ namespace School
 {
     class School
     {
-        public static int students;
+        public static int students = 0;
 
         // Constructor
-        public School () {
-            students = 0;
-        }
+        // public School () {
+        //     students = 0;
+        // }
 
         // Method
         public static int getStudents() {

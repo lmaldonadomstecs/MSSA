@@ -13,6 +13,7 @@ namespace School
             Student student_4 = new Student(ref School.students);
             Student student_5 = new Student(ref School.students);
             Console.WriteLine(School.getStudents());
+            
         }
     }
 }

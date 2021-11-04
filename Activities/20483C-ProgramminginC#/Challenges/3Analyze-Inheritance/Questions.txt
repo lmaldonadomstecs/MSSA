@@ -1,0 +1,4 @@
+01. What is an enumeration?
+02. What happens if you add the "sealed" keyword before any "class Something" declaration?
+03. Cat is the base class of Pet. True or false.
+04. What is the effect of the protected access modifier.
