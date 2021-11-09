@@ -1,0 +1,16 @@
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.exe
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.deps.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.runtimeconfig.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.runtimeconfig.dev.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\ref\collections.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\bin\Debug\net5.0\collections.pdb
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.csproj.AssemblyReference.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.GeneratedMSBuildEditorConfig.editorconfig
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.AssemblyInfoInputs.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.AssemblyInfo.cs
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.csproj.CoreCompileInputs.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\ref\collections.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.pdb
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\collections\obj\Debug\net5.0\collections.genruntimeconfig.cache
