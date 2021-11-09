@@ -1,0 +1,16 @@
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.exe
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.deps.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.runtimeconfig.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.runtimeconfig.dev.json
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\ref\m3.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\bin\Debug\net5.0\m3.pdb
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.csproj.AssemblyReference.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.GeneratedMSBuildEditorConfig.editorconfig
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.AssemblyInfoInputs.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.AssemblyInfo.cs
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.csproj.CoreCompileInputs.cache
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\ref\m3.dll
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.pdb
+L:\Desktop\MSSA\20483-Programming-in-C-Sharp\myExercices\m3\obj\Debug\net5.0\m3.genruntimeconfig.cache
