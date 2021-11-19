@@ -1,0 +1,62 @@
+﻿<Window x:Class="CoffeeRecreate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeRecreate"
+        mc:Ignorable="d"
+        Title="Coffee Shop" Height="250" Width="600" MinHeight="230" MinWidth="560" MaxHeight="300" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Label Content="Type of Coffee:" HorizontalAlignment="Right" />
+
+        <StackPanel Grid.Column="1" Margin="10 0">
+            <ComboBox x:Name="coffeeList" SelectionChanged="updateOrderSummary" SelectedValuePath="Content">
+                <ComboBoxItem Content="Latte" IsSelected="True" />
+                <ComboBoxItem Content="Capuccino" />
+                <ComboBoxItem Content="Americano" />
+                <ComboBoxItem Content="Espresso" />
+                <ComboBoxItem Content="Machiato" />
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.ColumnSpan="2" Margin="10 0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 0 15">
+                <Label Content="Size:" Margin="0 0 5 0"/>
+                <RadioButton x:Name="small" GroupName="size" Content="Small" VerticalAlignment="Center" Margin="0 0 15 0" Click="updateOrderSummary" />
+                <RadioButton x:Name="medium" GroupName="size" Content="Medium" VerticalAlignment="Center" Margin="0 0 15 0" Click="updateOrderSummary" IsChecked="true"/>
+                <RadioButton x:Name="large" GroupName="size" Content="Large" VerticalAlignment="Center" Margin="0 0 15 0" Click="updateOrderSummary" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 15 0 10">
+                <CheckBox x:Name="sugar" Content="Sugar" Margin="0 0 15 0" Click="updateOrderSummary"/>
+                <CheckBox x:Name="cream" Content="Cream" Margin="15 0 0 0" Click="updateOrderSummary"/>
+            </StackPanel>
+            <StackPanel Margin="0 10 0 0">
+                <TextBlock>
+                    <Bold>Order Summary:</Bold>
+                </TextBlock>
+                <TextBlock x:Name="orderSummary" Text="{Binding Order, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <!--<TextBlock x:Name="orderSummary" Text="Please choose a coffee."/>-->
+                <!--<TextBlock x:Name="orderSummary" Text="Medium Capuccino with sugar and cream"/>-->
+            </StackPanel>
+        </StackPanel>
+
+        <Button x:Name="orderBtn" Grid.Row="1" Grid.ColumnSpan="4" MaxWidth="128" Content="Order Coffee" Click="orderCoffee" IsEnabled="False" />
+        
+        <!--<ListBox x:Name="listBox" SelectionMode="Multiple" Visibility="Hidden">
+            <ListBoxItem>1</ListBoxItem>
+            <ListBoxItem>2</ListBoxItem>
+            <ListBoxItem>3</ListBoxItem>
+        </ListBox>-->
+    </Grid>
+</Window>
