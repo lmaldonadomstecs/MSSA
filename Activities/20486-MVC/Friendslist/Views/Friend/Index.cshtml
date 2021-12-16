@@ -1,0 +1,28 @@
+﻿@using ChallengeFriendslist.Services;
+@model List<Friend>
+
+@{
+    ViewData["Title"] = "Mah frends list";
+}
+
+<a asp-action="InsertNewFriend">Add a new friend</a>
+
+<ul class="friendslist">
+    @foreach (var item in Model)
+    {
+        <li class="friend">
+            <div class="friend-info">
+                <p class="friends-name">@item.name</p>
+            </div>
+            <div class="friend-actions">
+                <a asp-action="FriendsDetail" asp-route-id="@item.id">View Friend's details</a>
+                <a asp-action="EditFriend" asp-route-id="@item.id">Edit Friend's details</a>
+                <a asp-action="DeleteFriend" asp-route-id="@item.id">Delete Friend</a>
+            </div>
+        </li>
+    }
+</ul>
+
+@section section1 {
+    <p>This is just a test</p>
+}
