@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+            }
+
+            body {
+
+            }
+
+            .playarea {
+                background-color: black;
+                border: 1px solid black;
+                height: 256px;
+                width: 256px;
+            }
+
+            
+            /*3*/
+            #rubik {
+               margin: 1rem 0; 
+            }
+
+            .rubik-row {
+
+            }
+
+            .rubik-column {
+
+            }
+
+            #tictactoe {
+
+            }
+
+            .tictactoe-row {
+
+            }
+
+            #donut {
+                width: 50%;
+            }
+
+            /*2*/
+            .column.tictactoe-column {
+                align-items: center;
+                border: 1px solid red;
+                display: flex;
+                justify-content: center;
+                width: 32%;
+
+                /* 
+                line-height: 5rem;
+                text-align: center;
+                width: 32%; */
+
+                /* flexbox */
+                /* grid */
+            }
+
+            .column .tictactoe-column {
+
+            }
+
+            .column, .tictactoe-column {
+                
+            }
+
+            .row {
+                height: 33%;
+                width: 100%;
+            }
+
+            /*1*/
+            .column {
+                background-color: white;
+                float: left;
+                height: 100%;
+                width: 33%;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>HTML</h1>
+            <p>
+                You can position and color all html elements.
+            </p>
+        </div>
+        
+        <div>
+            <h1>Task</h1>
+            <p>Draw the next face of a Rubik Cube using HTML elements</p>
+
+            <ol>
+                <li>Draw a grid of 3x3 with div and span items (you may also use another approach)</li>
+                <li>Color the spans accordingly to the image</li>
+                <li>Play a match of Tic Tac Toe and center the content of the span element</li>
+                <li>Choose a different color for your Crosses and Circles</li>
+            </ol>
+
+            
+
+            <img width="128px" src="cube.jpg" alt="Rubik">
+
+            <!-- Proceed from here -->
+
+
+            <!-- INLINE STYLING -->
+            <div id="rubik" class="playarea">
+                <div class="row rubik-row">
+                    <div class="column rubik-column" style="background-color: red;"></div>
+                    <div class="column rubik-column" style="background-color: green;"></div>
+                    <div class="column rubik-column" style="background-color: white;"></div>
+                </div>
+                <div class="row rubik-row">
+                    <div class="column rubik-column" style="background-color: yellow;"></div>
+                    <div class="column rubik-column" style="background-color: blue;"></div>
+                    <div class="column rubik-column" style="background-color: red;"></div>
+                </div>
+                <div class="row rubik-row">
+                    <div class="column rubik-column" style="background-color: green;"></div>
+                    <div class="column rubik-column" style="background-color: red;"></div>
+                    <div class="column rubik-column" style="background-color: blue;"></div>
+                </div>
+            </div>
+
+            <div id="tictactoe" class="playarea">
+                <div class="row tictactoe-row">
+                    <div id="donut" class="column tictactoe-column">x</div>
+                    <div class="column tictactoe-column">o</div>
+                    <div class="column tictactoe-column">o</div>
+                </div>
+                <div class="row tictactoe-row">
+                    <div class="column tictactoe-column"></div>
+                    <div class="column tictactoe-column">x</div>
+                    <div class="column tictactoe-column"></div>
+                </div>
+                <div class="row tictactoe-row">
+                    <div class="column tictactoe-column">o</div>
+                    <div class="column tictactoe-column"></div>
+                    <div class="column tictactoe-column">x</div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

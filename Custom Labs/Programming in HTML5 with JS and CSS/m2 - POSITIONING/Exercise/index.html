@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <title>Sheeps & Wolves</title>
+        <style>
+            img {
+                max-height: 128px;
+                max-width: 128px;
+            }
+
+            /* position: static */
+            .position {
+                position: relative;
+                height: 12rem;
+            }
+
+            .position .wolf {
+                position: absolute;
+                left: 0;
+            }
+
+            .position .sheep {
+                position: absolute;
+                right: 0;
+            }
+
+            .float {
+
+            }
+            
+            .float .wolf {
+                float: left;
+            }
+
+            .float .sheep {
+                float: right;
+            }
+
+            .wall {
+                max-height: unset;
+                height: 32rem;
+                top: 0;
+                left: 45%;
+                position: absolute;
+                width: 5rem;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="position">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+            <img class="wolf" src="wolf.png" alt="Wolf">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+        </div>
+        
+        <div class="float">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+            <img class="wolf" src="wolf.png" alt="Wolf">
+            <img class="wolf" src="wolf.png" alt="Wolf">
+        </div>
+    
+        <div style="text-align: right;">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+            <img class="sheep" src="sheep.png" alt="Sheep">
+        </div>
+
+        <img class="wall" src="wall.png" alt="wall">
+    </body>
+</html>
