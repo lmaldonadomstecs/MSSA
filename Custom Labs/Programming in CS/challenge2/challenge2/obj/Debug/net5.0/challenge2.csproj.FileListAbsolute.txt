@@ -1,0 +1,16 @@
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.csproj.AssemblyReference.cache
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.AssemblyInfoInputs.cache
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.AssemblyInfo.cs
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.csproj.CoreCompileInputs.cache
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.exe
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.deps.json
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.runtimeconfig.json
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.runtimeconfig.dev.json
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.dll
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\ref\challenge2.dll
+C:\Users\fmt_9\source\repos\challenge2\challenge2\bin\Debug\net5.0\challenge2.pdb
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.dll
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\ref\challenge2.dll
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.pdb
+C:\Users\fmt_9\source\repos\challenge2\challenge2\obj\Debug\net5.0\challenge2.genruntimeconfig.cache

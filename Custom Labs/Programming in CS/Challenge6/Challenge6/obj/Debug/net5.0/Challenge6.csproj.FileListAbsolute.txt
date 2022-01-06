@@ -1,0 +1,16 @@
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.exe
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.deps.json
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.runtimeconfig.json
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.runtimeconfig.dev.json
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.dll
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\ref\Challenge6.dll
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\bin\Debug\net5.0\Challenge6.pdb
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.csproj.AssemblyReference.cache
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.AssemblyInfoInputs.cache
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.AssemblyInfo.cs
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.csproj.CoreCompileInputs.cache
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.dll
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\ref\Challenge6.dll
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.pdb
+C:\Users\fmt_9\source\repos\Challenge6\Challenge6\obj\Debug\net5.0\Challenge6.genruntimeconfig.cache
