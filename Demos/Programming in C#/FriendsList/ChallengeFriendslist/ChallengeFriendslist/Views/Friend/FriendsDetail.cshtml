@@ -1,0 +1,32 @@
+﻿@model Friend
+
+@{
+    ViewData["Title"] = "FriendsDetail";
+}
+
+<h1>FriendsDetail</h1>
+
+<a asp-action="Index">< Go back</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Place</th>
+            <th>Age</th>
+            <th>Occupation</th>
+            <th>Favorite Sport</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.id</td>
+            <td>@Model.name</td>
+            <td>@Model.place</td>
+            <td>@Model.age</td>
+            <td>@Model.occupation</td>
+            <td>@Model.favoriteSport</td>
+        </tr>
+    </tbody>
+</table>

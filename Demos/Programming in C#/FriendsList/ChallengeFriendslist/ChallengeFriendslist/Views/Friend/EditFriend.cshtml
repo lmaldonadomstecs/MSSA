@@ -1,0 +1,43 @@
+﻿@model Friend
+
+@{
+    ViewData["Title"] = "EditFriend";
+}
+
+<a asp-action="Index">< Go Back</a>
+
+<h1>EditFriend</h1>
+
+<form method="post" asp-action="EditFriend">
+    <input type="hidden" asp-for="id" />
+
+    <label asp-for="name"></label>
+    <input asp-for="name" />
+    <span asp-validation-for="name"></span>
+
+    <label asp-for="place"></label>
+    <input asp-for="place" />
+    <span asp-validation-for="place"></span>
+
+    <label asp-for="age"></label>
+    <input asp-for="age" />
+    <span asp-validation-for="age"></span>
+
+    <label asp-for="occupation"></label>
+    <input asp-for="occupation" />
+    <span asp-validation-for="occupation"></span>
+
+    <label asp-for="favoriteSport"></label>
+    <input asp-for="favoriteSport" />
+    <span asp-validation-for="favoriteSport"></span>
+
+    <input type="submit" value="submit" />
+</form>
+
+
+
+
+
+@section myCustomSection {
+
+}

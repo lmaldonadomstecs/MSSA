@@ -1,0 +1,26 @@
+﻿@model Friend
+
+<form method="post" asp-action="InsertNewFriend">
+
+    <label asp-for="name"></label>
+    <input asp-for="name" />
+    <span asp-validation-for="name"></span>
+
+    <label asp-for="place"></label>
+    <input asp-for="place" />
+    <span asp-validation-for="place"></span>
+
+    <label asp-for="age"></label>
+    <input asp-for="age" />
+    <span asp-validation-for="age"></span>
+
+    <label asp-for="occupation"></label>
+    <input asp-for="occupation" />
+    <span asp-validation-for="occupation"></span>
+
+    <label asp-for="favoriteSport"></label>
+    <input asp-for="favoriteSport" />
+    <span asp-validation-for="favoriteSport"></span>
+
+    <input type="submit" value="submit" />
+</form>
